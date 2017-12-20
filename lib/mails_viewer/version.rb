@@ -1,3 +1,3 @@
 module MailsViewer
-  VERSION = "0.0.3"
+  VERSION = "5.0.1"
 end
