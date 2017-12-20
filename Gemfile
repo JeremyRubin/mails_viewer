@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 # Declare your gem's dependencies in mails_viewer.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -7,7 +7,7 @@ gemspec
 
 group :test, :development do
   gem 'rspec-rails'
-  gem "rspec-instafail", "~> 0.1.8"
+  gem "rspec-instafail", ">= 0.1.8"
 
   gem 'guard'
   gem 'guard-bundler'
